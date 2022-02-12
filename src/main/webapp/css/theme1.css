@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+.inscrire, .ajouterCourseLien, .modifier {
+	border: 1px solid gray;
+	padding: 5px 15px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+.inscrire:hover, .ajouterCourseLien:hover, .modifier:hover {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border: 1px solid blue;
+	cursor: pointer;
+}
+
+#start, #end {
+	width: 160px !important;
+}
+
+.roundedInputTapis {
+	width: 180px !important;
+	border: 1px solid gray !important;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.bi bi-pencil-fill {
+    border: none;
+    position: relative;
+}
+
+#buttonModifier {
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+input:focus, select:focus {
+    outline: none !important;
+    outline-color: gray;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px #719ECE;
+  }
+
+.roundedInput {
+	width: 160px !important;
+	border: 1px solid gray !important;
+	border-radius: 25px;
+	padding: 0px 5px;
+}
+
+.welcomeTag {
+	font-size: 1.5rem;
+}
+
+.backButton:hover {
+	text-decoration: none;
+}
+
+#img-profile {
+	width: 50px !important;
+	height: 50px !important;
+}
